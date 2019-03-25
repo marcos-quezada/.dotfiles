@@ -21,7 +21,7 @@
   - mkdir -p /usr/local/share/zsh/site-functions/prompt_spaceship_setup ~/.zfunctions/prompt_spaceship_setup
   - git submodule sync --recursive
   # the following have to run after linking ~/.gitconfig
-  - git update-submodules
+  - git submodule update --init --recursive
   - >
     git cleanall -f
     shell/plugins/
