@@ -14,11 +14,10 @@
     ~/.vimrc:
     ~/.zsh:
     ~/.zshrc:
-    /usr/local/share/zsh/site-functions/prompt_spaceship_setup: zsh/plugins/spaceship-prompt/spaceship.zsh
     ~/.zfunctions/prompt_spaceship_setup: zsh/plugins/spaceship-prompt/spaceship.zsh
 
 - shell:
-  - mkdir -p /usr/local/share/zsh/site-functions ~/.zfunctions
+  - mkdir -p /.zfunctions
   - git submodule sync --recursive
   # the following have to run after linking ~/.gitconfig
   - git submodule update --init --recursive
