@@ -11,6 +11,9 @@ setopt appendhistory
 setopt incappendhistory
 setopt extendedhistory
 
+# Waiting Dots
+COMPLETION_WAITING_DOTS="true"
+
 # Use vim as the editor
 export EDITOR=vim
 
