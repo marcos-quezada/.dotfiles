@@ -3,6 +3,10 @@ autoload -Uz compinit && compinit -i
 zstyle ':completion:*' menu select=4
 zmodload zsh/complist
 
+#Environment Variables
+ORIENTDB_HOME=/Users/mquezada/Development/orientdb-community-2.2.33/
+export ORIENTDB_HOME
+
 # Nicer history
 HISTSIZE=1048576
 HISTFILE="$HOME/.zsh_history"
